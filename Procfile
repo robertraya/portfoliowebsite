@@ -1,1 +1,1 @@
-web: gunicorn praisetheflesh.wsgi --log-file -
+web: gunicorn praisetheflesh.praisetheflesh.wsgi:application --log-file -
