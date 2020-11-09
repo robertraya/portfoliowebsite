@@ -1,1 +1,1 @@
-web: gunicorn praisetheflesh.wsgi:application --log-file -
+web: gunicorn praisetheflesh.wsgi:application --log-file - runserver 0.0.0.0:$PORT
