@@ -1,1 +1,1 @@
-web: python3.7 praisetheflesh/manage.py runserver 0.0.0.0:$PORT
+web: python praisetheflesh/manage.py runserver 0.0.0.0:$PORT
