@@ -1,1 +1,1 @@
-web: python praisetheflesh/manage.py runserver 0.0.0.0:$PORT
+web: gunicorn --chdir praisetheflesh praisetheflesh.wsgi:application --log-file -
