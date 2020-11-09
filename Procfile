@@ -1,1 +1,1 @@
-web: gunicorn praisetheflesh.wsgi:application --log-file - runserver 0.0.0.0:$PORT
+web: python manage.py runserver 0.0.0.0:$PORT --noreload
