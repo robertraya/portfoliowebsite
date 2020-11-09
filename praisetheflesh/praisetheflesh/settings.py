@@ -35,7 +35,7 @@ ALLOWED_HOSTS = ['praisetheflesh.herokuapp.com/']
 # Application definition
 
 INSTALLED_APPS = [
-    'ptf',
+    'praisetheflesh',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
