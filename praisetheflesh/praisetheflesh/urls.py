@@ -19,5 +19,5 @@ from ptf import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('praisetheflesh.herokuapp.com/', views.MainPage, name='mainpage'),
+    path('', views.MainPage, name='mainpage'),
 ]
