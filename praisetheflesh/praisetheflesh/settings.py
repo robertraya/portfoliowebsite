@@ -135,6 +135,8 @@ os.path.join(BASE_DIR, 'ptf/static'),
     
 ]
 
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 SECURE_SSL_REDIRECT = False
 
