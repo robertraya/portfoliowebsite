@@ -19,5 +19,5 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('praisetheflesh.herokuapp.com', views.MainPage, name='mainpage'),
+    path('praisethfeflesh', views.MainPage, name='mainpage'),
 ]
