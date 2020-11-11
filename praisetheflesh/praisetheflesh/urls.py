@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from . import views
+from ptf import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.MainPage, name='mainpage'),
+    path(r'^$', views.MainPage, name='mainpage')
 ]
