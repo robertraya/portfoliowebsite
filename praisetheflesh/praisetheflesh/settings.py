@@ -29,7 +29,7 @@ SECRET_KEY = 'y0)$t%wubxbq5%=vi7kcp8f8a2)#6(#7lb_29#5$%ks3mc9hc#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['praisetheflesh.herokuapp.com/']
+ALLOWED_HOSTS = ['praisetheflesh.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
