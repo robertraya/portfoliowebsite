@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'y0)$t%wubxbq5%=vi7kcp8f8a2)#6(#7lb_29#5$%ks3mc9hc#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['praisetheflesh.herokuapp.com', '127.0.0.1']
 
@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'praisetheflesh.praisetheflesh.praisetheflesh.urls'
+ROOT_URLCONF = 'praisetheflesh.praisetheflesh.urls'
 
 TEMPLATES = [
     {
