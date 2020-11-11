@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'praisetheflesh/praisetheflesh.urls'
+ROOT_URLCONF = 'praisetheflesh.praisetheflesh.urls'
 
 TEMPLATES = [
     {
