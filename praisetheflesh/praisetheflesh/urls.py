@@ -18,6 +18,6 @@ from django.urls import path
 from praisetheflesh.ptf import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('youdontwannabehere/', admin.site.urls),
     path('', views.MainPage, name='mainpage')
 ]
