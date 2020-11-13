@@ -21,15 +21,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# with open('/praisetheflesh/praisetheflesh/secret_key.txt') as f:
-# 	SECRET_KEY = f.read().strip()
+with open('praisetheflesh/secret_key.txt') as f:
+	SECRET_KEY = f.read().strip()
 
-SECRET_KEY = 'y0)$t%wubxbq5%=vi7kcp8f8a2)#6(#7lb_29#5$%ks3mc9hc#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['praisetheflesh.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['praisetheflesh.herokuapp.com', '127.0.0.1', 'praisetheflesh.com']
 
 
 # Application definition
