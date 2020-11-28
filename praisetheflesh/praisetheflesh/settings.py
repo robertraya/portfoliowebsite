@@ -53,7 +53,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'praisetheflesh.urls'
+ROOT_URLCONF = 'praisetheflesh.praisetheflesh.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'praisetheflesh.wsgi.application'
+WSGI_APPLICATION = 'praisetheflesh.praisetheflesh.wsgi.application'
 
 
 # Database
