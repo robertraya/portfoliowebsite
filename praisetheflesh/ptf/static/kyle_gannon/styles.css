@@ -3988,8 +3988,8 @@ input[type=button].btn-block {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  padding: 0.2rem 1rem;
+  justify-content: normal;
+  padding: auto;
 }
 .navbar .container,
 .navbar .container-fluid,
