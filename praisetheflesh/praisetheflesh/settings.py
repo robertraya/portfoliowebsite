@@ -58,7 +58,8 @@ ROOT_URLCONF = 'praisetheflesh.praisetheflesh.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'ptf/templates/kyle_gannon')],
+        'DIRS': [os.path.join(BASE_DIR, 'ptf/templates/kyle_gannon'),
+        os.path.join(BASE_DIR, 'store/templates/store')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -16,12 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from praisetheflesh.ptf import views
-from praisetheflesh.store import views
+from praisetheflesh.store import views as v
 
 urlpatterns = [
     path('youdontwannabehere/', admin.site.urls),
     path('', views.MainPage, name='mainpage'),
-    path('', views.store, name='store'),
-    path('cart/', views.cart, name='cart'),
-    path('checkout/', views.checkout, name='checkout')
+    path('shop/', v.store, name='store'),
+    path('cart/', v.cart, name='cart'),
+    path('checkout/', v.checkout, name='checkout')
 ]
